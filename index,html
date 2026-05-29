@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site no GitHub</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      height: 100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    .container{
+      max-width:700px;
+      padding:40px;
+    }
+
+    h1{
+      font-size:3rem;
+      margin-bottom:20px;
+      color:#38bdf8;
+    }
+
+    p{
+      font-size:1.2rem;
+      margin-bottom:30px;
+      line-height:1.6;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:15px 30px;
+      background:#38bdf8;
+      color:#0f172a;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    footer{
+      margin-top:40px;
+      font-size:0.9rem;
+      opacity:0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Bem-vindo ao Meu Site 🚀</h1>
+
+    <p>
+      Este site está hospedado no GitHub Pages usando HTML e CSS.
+      Você pode personalizar tudo do seu jeito.
+    </p>
+
+    <a href="https://github.com/" class="btn" target="_blank">
+      Meu GitHub
+    </a>
+
+    <footer>
+      © 2026 - Criado com HTML + CSS
+    </footer>
+  </div>
+
+</body>
+</html>
+
+Usamos cookies
+
+Os cookies ajudam este site a funcionar, medir o uso e apoiar o marketing. Gerencie suas preferências de cookies a qualquer momento. Saiba mais sobre nossa política de cookies.
